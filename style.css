@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    background:#f2f5f9;
+    background:#f4f4f4;
     margin:0;
     padding:20px;
 }
@@ -8,10 +8,10 @@ body{
 .container{
     max-width:500px;
     margin:auto;
-    background:white;
+    background:#fff;
     padding:20px;
-    border-radius:12px;
-    box-shadow:0 0 15px rgba(0,0,0,0.1);
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
 h1{
@@ -21,17 +21,17 @@ h1{
 input{
     width:100%;
     padding:12px;
-    margin:8px 0;
+    margin:10px 0;
     box-sizing:border-box;
 }
 
 button{
     width:100%;
     padding:12px;
-    border:none;
     background:#2196F3;
     color:white;
-    border-radius:6px;
+    border:none;
+    border-radius:5px;
     cursor:pointer;
 }
 
@@ -40,8 +40,13 @@ button:hover{
 }
 
 .medicine-item{
-    margin-top:15px;
+    margin-top:10px;
     padding:10px;
     border:1px solid #ddd;
-    border-radius:8px;
+    border-radius:5px;
+}
+
+.delete-btn{
+    background:red;
+    margin-top:10px;
 }
